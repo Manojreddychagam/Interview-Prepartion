@@ -11,7 +11,7 @@ public class Qrgenerator {
 	public static void main(String[] args) throws Exception {
 		String S="Kiran";
 				ByteArrayOutputStream out=net.glxn.qrgen.QRCode.from(S).to(ImageType.JPG).stream();
-		        File file = new File("E:\\kiran.JPG");
+		        File file = new File("E:\\manoj.JPG");
 		        FileOutputStream outputStream = new FileOutputStream(file);
                 outputStream.write(out.toByteArray());
                 outputStream.flush();
